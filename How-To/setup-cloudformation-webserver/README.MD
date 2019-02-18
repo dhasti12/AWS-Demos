@@ -1,6 +1,6 @@
 # CloudFormation Template to setup Wordpress
 
-This templates is written in 'YAML' format to assist in easier comprehension, feel free to rewrite it in 'JSON'
+This templates is written in `YAML` format to assist in easier comprehension, feel free to rewrite it in `JSON`
 
 The following resources are setup in this template,
 
@@ -15,16 +15,16 @@ The following resources are setup in this template,
    
  - Mappings
 
-   - Regions - Mapped to 'us-east-1' and 'us-west-1'
+   - Regions - Mapped to `us-east-1` and `us-west-1`
    
  - Resources
 
    - VPC
    - Internet Gateway
    - Routes and Routing Table for internet traffic
-   - Two subnets [ Public & Private ]
+   - Two subnets: Public & Private
    - Security Group to allow internet traffic
-   - Webserver running wordpress with local 'MySQL' database
+   - Webserver running wordpress with local `MySQL` database
 
 **Access Wordpress**
 
